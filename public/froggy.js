@@ -5,7 +5,7 @@ function frogAppear() {
     document.getElementById('froggers').src = "froggiepoggie.png"
 }
 function camofrogAppear() {
-    document.getElementById('camofrog').src = 'Camofrog_NH.png'
+    document.getElementById('camofrog').src = 'public/froggiePoggie.png'
 
 }
 

@@ -2,10 +2,10 @@ function myFunction() {
     document.getElementById('sike').innerHTML = 'sike no frog pics to be found Sadge'
 }
 function frogAppear() {
-    document.getElementById('froggers').src = "https://github.com/dacodingman/making-websites/blob/bc32ae150d819deea1dd1ecf349f8ead49f83a06/Camofrog_NH.png"
+    document.getElementById('froggers').src = "https://raw.githubusercontent.com/dacodingman/making-websites/main/public/froggiePoggie.png"
 }
 function camofrogAppear() {
-    document.getElementById('camofrog').src = 'public/froggiePoggie.png'
+    document.getElementById('camofrog').src = 'https://raw.githubusercontent.com/dacodingman/making-websites/main/Camofrog_NH.png'
 
 }
 

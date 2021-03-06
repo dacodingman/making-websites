@@ -2,7 +2,7 @@ function myFunction() {
     document.getElementById('sike').innerHTML = 'sike no frog pics to be found Sadge'
 }
 function frogAppear() {
-    document.getElementById('froggers').src = "froggiepoggie.png"
+    document.getElementById('froggers').src = "https://github.com/dacodingman/making-websites/blob/bc32ae150d819deea1dd1ecf349f8ead49f83a06/Camofrog_NH.png"
 }
 function camofrogAppear() {
     document.getElementById('camofrog').src = 'public/froggiePoggie.png'

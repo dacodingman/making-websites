@@ -42,5 +42,5 @@ function testResults(form) {
     var TestVar = form.inputbox.value;
     TestVar *= 365
     TestVar = String(TestVar)
-    document.getElementById("theageofFrog").innerHTML = "your frog is" + TestVar "years old!";
+    document.getElementById("theageofFrog").innerHTML = "your frog is" + TestVar + "years old!";
 }

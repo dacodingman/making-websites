@@ -44,3 +44,33 @@ function testResults(form) {
     TestVar = String(TestVar)
     document.getElementById("theageofFrog").innerHTML = "your frog is" + TestVar + "years old!";
 }
+
+function hoverTest() {
+
+    document.getElementById('hoverTest').innerHTML = "if you found this ily :D"
+
+}
+
+function fuckGoBack() {
+
+    document.getElementById("hoverTest").innerHTML = "if you found this ily :D"
+
+}
+
+function puzzleA(form) {
+
+    var puzzleInput = form.puzzleBox.value;
+    if (puzzleInput == 7) {
+        window.alert("correct! here's another frog for you!")
+        document.getElementById('correctFrog').src = 'https://raw.githubusercontent.com/dacodingman/making-websites/main/public/cowboyFrog.png'
+    } else if (puzzleInput == 8) {
+        window.alert("correct! here's another frog for you!")
+        document.getElementById('correctFrog').src = 'https://raw.githubusercontent.com/dacodingman/making-websites/main/public/cowboyFrog.png'
+    } else if (puzzleInput == 9) {
+        window.alert("correct! here's another frog for you!")
+        document.getElementById('correctFrog').src = 'https://raw.githubusercontent.com/dacodingman/making-websites/main/public/cowboyFrog.png'
+    } else {
+        window.alert('incorrect! try again!')
+    }
+}
+

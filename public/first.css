@@ -1,19 +1,53 @@
-/*p {
-    color: red;
+html {
     text-align: center;
-  }
+    background-color: rgb(209, 74, 74);
+}
 
-  #para1 {
-    text-align: center;
-    color: red;
-  }
-
-  h1, h2, p {
-    text-align: center;
-    color: red;
-  } */
-
-p,
 head {
     font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#regular,
+#clock {
+    max-width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: aqua;
+    border-radius: 12px;
+    border: 2px solid aqua;
+}
+
+img {
+    border-color: rgb(209, 74, 74);
+}
+
+#cancel,
+#sike {
+    background-color: rgb(209, 74, 74);
+    border: 2px solid rgb(209, 74, 74);
+}
+
+#buttons {
+    box-shadow: none;
+}
+
+#gayOlTime1 {
+    max-width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: aqua;
+    border-top: 2px solid aqua;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom: 0px;
+}
+
+#gayOlTime2 {
+    max-width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: aqua;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom: 2px solid aqua;
 }

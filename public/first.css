@@ -1,0 +1,19 @@
+/*p {
+    color: red;
+    text-align: center;
+  }
+
+  #para1 {
+    text-align: center;
+    color: red;
+  }
+
+  h1, h2, p {
+    text-align: center;
+    color: red;
+  } */
+
+p,
+head {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
